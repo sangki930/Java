@@ -5,4 +5,8 @@ public class Example {
     private Example() {
 
     }
+
+    Example(Example example) {
+        this.instance = example;
+    }
 }
